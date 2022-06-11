@@ -5,9 +5,8 @@
     "env": {
         "UUID": {
             "description": "UUID",
-            "value": "UUID"
-        },
-        
+            "value": ""
+        },   
     },
     "website": "https://github.com/saferre/v2vl",
     "repository": "https://github.com/saferre/v2vl",
