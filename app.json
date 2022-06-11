@@ -1,15 +1,18 @@
 {
-  "name": "v2ray-Heroku",
-  "description": "vmess or vles",
-  "keywords": [
-    "vmess or vless"
-  ],
-    "UUID": {
-      "description": "UUID充当配置的路径和账号密码,请妥善保存,可生成UUID的网站: https://www.uuidgenerator.net",
-      "value": "",
-      "required": false
-  },
-  "website": "https://github.com/louyour/ngix-fixed",
-  "repository": "https://github.com/louyour/ngix-fixed",
-  "stack": "container",
+    "name": "V2",
+    "description": "Deploy V2 on Heroku.",
+    "keywords": ["V2"],
+    "env": {
+        "UUID": {
+            "description": "UUID",
+            "value": ""
+        },
+        "WSPATH": {
+            "description": "WebSocket Path",
+            "value": "/$UUID-vless"
+        }
+    },
+    "website": "https://github.com/saferre/v2vl",
+    "repository": "https://github.com/saferre/v2vl",
+    "stack": "container"
 }
