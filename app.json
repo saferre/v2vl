@@ -6,7 +6,7 @@
         "UUID": {
             "description": "UUID",
             "value": "UUID"
-        },
+        }
     },
     "website": "https://github.com/saferre/v2vl",
     "repository": "https://github.com/saferre/v2vl",
