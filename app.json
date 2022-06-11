@@ -6,6 +6,10 @@
         "UUID": {
             "description": "UUID",
             "value": "UUID"
+        },
+          "WSPATH": {
+            "description": "WebSocket Path",
+            "value": "/UUID-vless"
         }
     },
     "website": "https://github.com/saferre/v2vl",
