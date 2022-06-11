@@ -8,8 +8,7 @@
       "description": "可生成UUID的网站: https://www.uuidgenerator.net",
       "value": "",
       "required": false
-    } 
-  },
+    },
   "website": "https://github.com/saferre/v2vl",
   "repository": "https://github.com/saferre/v2vl",
   "stack": "container",
