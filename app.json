@@ -8,5 +8,6 @@
             "value": ""
         },
     },
+    "repository": "https://github.com/saferre/v2vl",
     "stack": "container"
 }
