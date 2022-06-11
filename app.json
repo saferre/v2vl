@@ -1,18 +1,19 @@
 {
-    "name": "V2",
-    "description": "Deploy V2 on Heroku.",
-    "keywords": ["V2"],
-    "env": {
-        "UUID": {
-            "description": "UUID",
-            "value": ""
-        },
-        "WSPATH": {
-            "description": "WebSocket Path",
-            "value": "/$UUID-vless"
-        }
-    },
-    "website": "https://github.com/saferre/v2vl",
-    "repository": "https://github.com/saferre/v2vl",
-    "stack": "container"
+  "name": "v2-Heroku",
+  "description": "vles",
+  "keywords": [
+    "vless"
+  ],
+    "UUID": {
+      "description": "可生成UUID的网站: https://www.uuidgenerator.net",
+      "value": "",
+      "required": false
+    } 
+  },
+  "website": "https://github.com/saferre/v2vl",
+  "repository": "https://github.com/saferre/v2vl",
+  "stack": "container",
+  "features": [
+    "runtime-dyno-metadata"
+  ]
 }
