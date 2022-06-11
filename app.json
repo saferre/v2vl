@@ -1,17 +1,11 @@
 {
-    "name": "V2Ray",
-    "description": "Deploy V2ray on Heroku.",
-    "keywords": ["V2Ray"],
-    "env": {
-        "UUID": {
+    "name": "V2",
+    "description": "Deploy V2 on Heroku.",
+    "keywords": ["V2"],
+    "UUID": {
             "description": "UUID",
             "value": "UUID"
         },
-          "WSPATH": {
-            "description": "WebSocket Path",
-            "value": "/UUID-vless"
-        }
-    },
     "website": "https://github.com/saferre/v2vl",
     "repository": "https://github.com/saferre/v2vl",
     "stack": "container"
