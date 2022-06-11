@@ -2,12 +2,12 @@
     "name": "V2",
     "description": "Deploy V2 VLESS on Heroku.",
     "keywords": ["V2"],
-    "env": {
         "UUID": {
             "description": "UUID",
             "value": ""
         },
-    },
+    
+    "website": "https://github.com/saferre/v2vl",
     "repository": "https://github.com/saferre/v2vl",
     "stack": "container"
 }
